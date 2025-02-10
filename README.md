@@ -1,4 +1,4 @@
-# hERG-LTN: A Neuro-Symbolic AI Framework for Predicting hERG Cardiotoxicity
+# hERG-LTN: A New Paradigm in hERG Cardiotoxicity Assessment Using Neuro-Symbolic and Generative AI Embedding (MegaMolBART, Llama3.2, Gemini, DeepSeek) Approach
 
 ![hERG-LTN Banner](herg-ltn-banner.webp)
 
