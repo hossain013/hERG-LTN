@@ -17,6 +17,9 @@ Finally, we utilized the **Logic Tensor Network (LTN)**, an advanced AI framewor
 - On the **hERG-70** benchmark, LTN achieved an **accuracy (ACC) of 0.827**, a **specificity (SPE) of 0.890**, and a **correct classification rate (CCR) of 0.833**.
 
 Overall, the Neuro-Symbolic AI approach sets a new standard for hERG-related cardiotoxicity assessment, yielding competitive results with current state-of-the-art (SOTA) models, and highlights its potential for advancing precision pharmacogenomics in drug discovery and development.
+### Dataset
+data card: [Download](https://drive.google.com/drive/folders/1joG-nNPFJ12TAsu2nesSI6ctimB8hU_7?usp=sharing)
+
 
 ### Architecture
 ![hERG-LTN Banner](git-imgs/ltn-arch.png)
