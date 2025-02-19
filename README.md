@@ -1,6 +1,6 @@
 # hERG-LTN: A New Paradigm in hERG Cardiotoxicity Assessment Using Neuro-Symbolic and Generative AI Embedding (MegaMolBART, Llama3.2, Gemini, DeepSeek) Approach
 
-![hERG-LTN Banner](herg-ltn-banner.webp)
+![hERG-LTN Banner](git-imgs/herg-ltn-banner.jpg)
 
 ---
 
@@ -17,3 +17,13 @@ Finally, we utilized the **Logic Tensor Network (LTN)**, an advanced AI framewor
 - On the **hERG-70** benchmark, LTN achieved an **accuracy (ACC) of 0.827**, a **specificity (SPE) of 0.890**, and a **correct classification rate (CCR) of 0.833**.
 
 Overall, the Neuro-Symbolic AI approach sets a new standard for hERG-related cardiotoxicity assessment, yielding competitive results with current state-of-the-art (SOTA) models, and highlights its potential for advancing precision pharmacogenomics in drug discovery and development.
+
+### Architecture
+![hERG-LTN Banner](git-imgs/ltn-arch.png)
+
+### Result
+* **Externel Positive Testset-I**
+![hERG-LTN Banner](git-imgs/ex-pos-test1.png)
+
+* **Externel hERG-70 Testset-II**
+![hERG-LTN Banner](git-imgs/ex-h70-test2.png)
