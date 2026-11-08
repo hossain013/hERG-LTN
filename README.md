@@ -29,3 +29,26 @@ data card: [Download](https://drive.google.com/drive/folders/1joG-nNPFJ12TAsu2ne
 
 * **Externel hERG-70 Testset-II**
 ![hERG-LTN Banner](git-imgs/ex-h70-test2.png)
+
+---
+
+## License
+
+This repository — code, notebooks, and the trained checkpoints in `Model-Weights/` — is licensed under the **MIT License**. See the `LICENSE` file in this repository.
+
+That means you may use, copy, modify, and redistribute the contents, including the model weights, including in commercial products, provided you keep the copyright and license notice. The contents are provided "as is", without warranty of any kind.
+
+This is research software for hERG cardiotoxicity prediction. It is **not** a medical device and is **not** intended for clinical or diagnostic use.
+
+## Model weights — verify before use
+
+The checkpoints in `Model-Weights/` are inference-only published weights. Verify the file you have before using it — do not rely on file size or input width alone.
+
+`hERG-UniChemDB-Morgan.keras` and `hERG-UniChemDB-LLAMA.keras` are both 2048 inputs wide and both 148,406 bytes, so they cannot be distinguished by size or input width.
+
+| Checkpoint | SHA-256 |
+|---|---|
+| `hERG-UniChemDB-Morgan.keras` | `517ad2c3814b87b3e18bc1c20a5984df5bc19b9212e0eb7f3a520bfb5cf13f43` |
+| `hERG-UniChemDB-LLAMA.keras` | `ea3bb0978a5a173f685a544b53fe3807406a63b24c712b79dfdb2a2f3a6a9aa0` |
+
+Check with: `sha256sum Model-Weights/hERG-UniChemDB-Morgan.keras`
